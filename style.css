@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media.es.wired.com/photos/63bcb11d2984c2acd0305509/16:9/w_2560%2Cc_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg");
+    background-size: cover;
+    /* position: absolute; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+header h1 {
+    padding-top: 300px;
+    padding-left: 250px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+header nav {
+    width: 150px;
+    height: 120px;
+    backdrop-filter: blur(100px);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* left: 20px;
+    top: 20px; */
+}
+
+header nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: .3s;
+}
+
+header nav a:hover {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    /* flex-direction: column; */
+}
+
+.container div {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container div img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.footer {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    padding: 60px;
+    background-color: bisque;
+}
