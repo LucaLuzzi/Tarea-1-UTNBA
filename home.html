@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo de productos</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tienda ONLINE</h1>
+
+        <!-- <nav>
+            <ul>
+                <li class="nav-item"><a href="#zapatillas">Zapatillas</a></li>
+                <li class="nav-item"><a href="#reloj">Reloj</a></li>
+                <li class="nav-item"><a href="#buzo">Buzo</a></li>
+            </ul>
+        </nav> -->
+
+        <div class="productos" id="zapatillas">
+            <h2>Zapatillas Deportivas</h2>
+            <img src="https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dweec4c3c8/products/NI_DM1175-800/NI_DM1175-800-1.JPG" alt="Zapatillas Deportivas">
+            <div class="descripcion">
+                <p>Zapatilla Deportivas Exelente para correr</p>
+            </div>
+            <div class="precio">
+                <p>$30.000</p>
+            </div>
+            
+        </div>
+
+        <div class="productos" id="#reloj">
+            <h2>Reloj Inteligente</h2>
+            <img src="data:image/jpeg;base64,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" alt="Reloj Inteligente">
+            <div class="descripcion">
+                <p>Reloj Inteligente para actividad Fisica</p>
+            </div>
+            <div class="precio">
+                <p>$130.000</p>
+            </div>
+            
+        </div>
+
+        <div class="productos" id="buzo">
+            <h2>Buzo Deportivo</h2>
+            <img src="https://libertysantarosa.com/wp-content/uploads/2021/06/77fded0e-1ee8-4e7c-9c35-9a9fb4eb7ad3.jpg" alt="Buzo Deportivo">
+            <div class="descripcion">
+                <p>Buzo de calidad con Capucha</p>
+            </div>
+            <div class="precio">
+                <p>$35.000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
